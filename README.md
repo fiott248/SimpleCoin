@@ -14,10 +14,11 @@ You can find more information in the original [Bitcoin Paper](https://bitcoin.or
 
 ## How to run it
 
-First, install ```requirements.txt```.
+First, install ```Dependincies using NIX packaging```.
 
+Make sure that nix-shell is already installed
 ```
-pip install -r requirements.txt
+nix-shell default.nix
 ```
 
 Then you have 2 options:
